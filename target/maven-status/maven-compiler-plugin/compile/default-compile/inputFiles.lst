@@ -2,10 +2,14 @@
 /Users/luisenrique/Documents/Programming/Java/Microservices/beer-service/src/main/java/org/beer/works/beerservice/bootstrap/BeerLoader.java
 /Users/luisenrique/Documents/Programming/Java/Microservices/beer-service/src/main/java/org/beer/works/beerservice/domain/Beer.java
 /Users/luisenrique/Documents/Programming/Java/Microservices/beer-service/src/main/java/org/beer/works/beerservice/repositories/BeerRepository.java
+/Users/luisenrique/Documents/Programming/Java/Microservices/beer-service/src/main/java/org/beer/works/beerservice/services/BeerService.java
+/Users/luisenrique/Documents/Programming/Java/Microservices/beer-service/src/main/java/org/beer/works/beerservice/services/BeerServiceImpl.java
 /Users/luisenrique/Documents/Programming/Java/Microservices/beer-service/src/main/java/org/beer/works/beerservice/web/controller/BeerController.java
 /Users/luisenrique/Documents/Programming/Java/Microservices/beer-service/src/main/java/org/beer/works/beerservice/web/controller/MvcExceptionHandler.java
+/Users/luisenrique/Documents/Programming/Java/Microservices/beer-service/src/main/java/org/beer/works/beerservice/web/controller/exceptions/NotFoundException.java
 /Users/luisenrique/Documents/Programming/Java/Microservices/beer-service/src/main/java/org/beer/works/beerservice/web/mappers/BeerMapper.java
 /Users/luisenrique/Documents/Programming/Java/Microservices/beer-service/src/main/java/org/beer/works/beerservice/web/mappers/DateMapper.java
 /Users/luisenrique/Documents/Programming/Java/Microservices/beer-service/src/main/java/org/beer/works/beerservice/web/model/BeerDto.java
 /Users/luisenrique/Documents/Programming/Java/Microservices/beer-service/src/main/java/org/beer/works/beerservice/web/model/BeerPageList.java
+/Users/luisenrique/Documents/Programming/Java/Microservices/beer-service/src/main/java/org/beer/works/beerservice/web/model/BeerPagedList.java
 /Users/luisenrique/Documents/Programming/Java/Microservices/beer-service/src/main/java/org/beer/works/beerservice/web/model/BeerStyleEnum.java

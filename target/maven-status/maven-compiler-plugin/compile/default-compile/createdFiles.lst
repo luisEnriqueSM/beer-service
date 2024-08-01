@@ -1,6 +1,8 @@
 org/beer/works/beerservice/web/model/BeerStyleEnum.class
+org/beer/works/beerservice/services/BeerServiceImpl.class
 org/beer/works/beerservice/web/mappers/BeerMapper.class
 org/beer/works/beerservice/domain/Beer$BeerBuilder.class
+org/beer/works/beerservice/services/BeerService.class
 org/beer/works/beerservice/domain/Beer.class
 org/beer/works/beerservice/web/model/BeerDto.class
 org/beer/works/beerservice/bootstrap/BeerLoader.class
@@ -9,6 +11,8 @@ org/beer/works/beerservice/web/controller/MvcExceptionHandler.class
 org/beer/works/beerservice/repositories/BeerRepository.class
 org/beer/works/beerservice/web/model/BeerDto$BeerDtoBuilder.class
 org/beer/works/beerservice/web/mappers/DateMapper.class
+org/beer/works/beerservice/web/model/BeerPagedList.class
 org/beer/works/beerservice/BeerServiceApplication.class
+org/beer/works/beerservice/web/controller/exceptions/NotFoundException.class
 org/beer/works/beerservice/web/model/BeerPageList.class
 org/beer/works/beerservice/web/controller/BeerController.class
