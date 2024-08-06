@@ -1,2 +1,3 @@
-/Users/luisenrique/Documents/Programming/Java/Microservices/beer-service/src/test/java/org/beer/works/beerservice/BeerServiceApplicationTests.java
-/Users/luisenrique/Documents/Programming/Java/Microservices/beer-service/src/test/java/org/beer/works/beerservice/web/controller/BeerControllerTest.java
+/Users/luisenrique/Documents/Programming/Java/Microservices/Brewery project/beer-service/src/test/java/org/beer/works/beerservice/BeerServiceApplicationTests.java
+/Users/luisenrique/Documents/Programming/Java/Microservices/Brewery project/beer-service/src/test/java/org/beer/works/beerservice/services/inventory/BeerInventoryServiceRestTemplateTest.java
+/Users/luisenrique/Documents/Programming/Java/Microservices/Brewery project/beer-service/src/test/java/org/beer/works/beerservice/web/controller/BeerControllerTest.java

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.beer.works.beerservice.web.controller.BeerControllerTest" time="1.276" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.beer.works.beerservice.services.inventory.BeerInventoryServiceRestTemplateTest" time="0.008" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -49,6 +49,7 @@
     <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-21/issues/"/>
     <property name="java.io.tmpdir" value="/var/folders/zy/6mxwy4sn0sg290k4169n8stc0000gn/T/"/>
     <property name="idea.version" value="2023.1.6"/>
+    <property name="com.zaxxer.hikari.pool_number" value="1"/>
     <property name="java.version" value="21.0.3"/>
     <property name="user.dir" value="/Users/luisenrique/Documents/Programming/Java/Microservices/Brewery project/beer-service"/>
     <property name="os.arch" value="aarch64"/>
@@ -66,32 +67,9 @@
     <property name="java.class.version" value="65.0"/>
     <property name="LOGGED_APPLICATION_NAME" value="[beer-service] "/>
   </properties>
-  <testcase name="updateBeerById" classname="org.beer.works.beerservice.web.controller.BeerControllerTest" time="0.106">
-    <system-out><![CDATA[10:42:00.698 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [org.beer.works.beerservice.web.controller.BeerControllerTest]: BeerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-10:42:00.757 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration org.beer.works.beerservice.BeerServiceApplication for test class org.beer.works.beerservice.web.controller.BeerControllerTest
-10:42:00.785 [main] INFO org.springframework.boot.devtools.restart.RestartApplicationListener -- Restart disabled due to context in which it is running
-  .   ____          _            __ _ _
- /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
-( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
- \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
-  '  |____| .__|_| |_|_| |_\__, | / / / /
- =========|_|==============|___/=/_/_/_/
-
- :: Spring Boot ::                (v3.3.0)
-
-2024-08-06T10:42:00.898-06:00  INFO 28996 --- [beer-service] [           main] o.b.w.b.w.controller.BeerControllerTest  : Starting BeerControllerTest using Java 21.0.3 with PID 28996 (started by luisenrique in /Users/luisenrique/Documents/Programming/Java/Microservices/Brewery project/beer-service)
-2024-08-06T10:42:00.899-06:00  INFO 28996 --- [beer-service] [           main] o.b.w.b.w.controller.BeerControllerTest  : No active profile set, falling back to 1 default profile: "default"
-2024-08-06T10:42:01.772-06:00  INFO 28996 --- [beer-service] [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2024-08-06T10:42:01.772-06:00  INFO 28996 --- [beer-service] [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2024-08-06T10:42:01.773-06:00  INFO 28996 --- [beer-service] [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
-2024-08-06T10:42:01.783-06:00  INFO 28996 --- [beer-service] [           main] o.b.w.b.w.controller.BeerControllerTest  : Started BeerControllerTest in 1.002 seconds (process running for 1.376)
+  <testcase name="getOnHandInventory" classname="org.beer.works.beerservice.services.inventory.BeerInventoryServiceRestTemplateTest" time="0.002">
+    <system-out><![CDATA[2024-08-06T10:42:03.311-06:00  INFO 28996 --- [beer-service] [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.beer.works.beerservice.services.inventory.BeerInventoryServiceRestTemplateTest]: BeerInventoryServiceRestTemplateTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-08-06T10:42:03.315-06:00  INFO 28996 --- [beer-service] [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.beer.works.beerservice.BeerServiceApplication for test class org.beer.works.beerservice.services.inventory.BeerInventoryServiceRestTemplateTest
 ]]></system-out>
-    <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (/Users/luisenrique/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.16/byte-buddy-agent-1.14.16.jar)
-WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
-WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
-WARNING: Dynamic loading of agents will be disallowed by default in a future release
-]]></system-err>
   </testcase>
-  <testcase name="saveNewBeer" classname="org.beer.works.beerservice.web.controller.BeerControllerTest" time="0.004"/>
-  <testcase name="getBeerById" classname="org.beer.works.beerservice.web.controller.BeerControllerTest" time="0.003"/>
 </testsuite>
