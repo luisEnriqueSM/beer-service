@@ -1,5 +1,6 @@
 package org.beer.works.beerservice.services;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.util.StringUtils;
 import lombok.RequiredArgsConstructor;
@@ -17,6 +18,7 @@ import org.springframework.stereotype.Service;
 import java.util.UUID;
 import java.util.stream.Collectors;
 
+@Slf4j
 @RequiredArgsConstructor
 @Service
 public class BeerServiceImpl implements BeerService {
@@ -27,6 +29,7 @@ public class BeerServiceImpl implements BeerService {
     @Cacheable(cacheNames = "beerCache", key = "#beerId", condition = "#showInventoryOnHand == false")
     @Override
     public BeerDto getById(UUID beerId, Boolean showInventoryOnHand) {
+        log.info("beerCache called");
         if(showInventoryOnHand){
             return beerMapper.beerToBeerDtoWithInventory(
                     beerRepository.findById(beerId)
@@ -58,6 +61,7 @@ public class BeerServiceImpl implements BeerService {
     @Cacheable(cacheNames = "beerListCache", condition = "#showInventoryOnHand == false")
     @Override
     public BeerPagedList listBeers(String beerName, BeerStyleEnum beerStyle, PageRequest pageRequest, Boolean showInventoryOnHand) {
+        log.info("beerListCache called");
         BeerPagedList beerPagedList;
         Page<Beer> beerPage;
 
