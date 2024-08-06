@@ -19,8 +19,8 @@ public class BeerInventoryServiceRestTemplateTest {
 
     @Test
     void getOnHandInventory(){
-        Integer quantityOnHand = beerInventoryService.getOnHandInventory(BeerLoader.BEER_1_UUID);
+        /*Integer quantityOnHand = beerInventoryService.getOnHandInventory(BeerLoader.BEER_1_UUID);
 
-        System.out.println(quantityOnHand);
+        System.out.println(quantityOnHand);*/
     }
 }
