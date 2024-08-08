@@ -1,5 +1,6 @@
 /Users/luisenrique/Documents/Programming/Java/Microservices/Brewery project/beer-service/src/main/java/org/beer/works/beerservice/BeerServiceApplication.java
 /Users/luisenrique/Documents/Programming/Java/Microservices/Brewery project/beer-service/src/main/java/org/beer/works/beerservice/bootstrap/BeerLoader.java
+/Users/luisenrique/Documents/Programming/Java/Microservices/Brewery project/beer-service/src/main/java/org/beer/works/beerservice/config/CacheConfig.java
 /Users/luisenrique/Documents/Programming/Java/Microservices/Brewery project/beer-service/src/main/java/org/beer/works/beerservice/domain/Beer.java
 /Users/luisenrique/Documents/Programming/Java/Microservices/Brewery project/beer-service/src/main/java/org/beer/works/beerservice/repositories/BeerRepository.java
 /Users/luisenrique/Documents/Programming/Java/Microservices/Brewery project/beer-service/src/main/java/org/beer/works/beerservice/services/BeerService.java
@@ -14,6 +15,5 @@
 /Users/luisenrique/Documents/Programming/Java/Microservices/Brewery project/beer-service/src/main/java/org/beer/works/beerservice/web/mappers/BeerMapperDecorator.java
 /Users/luisenrique/Documents/Programming/Java/Microservices/Brewery project/beer-service/src/main/java/org/beer/works/beerservice/web/mappers/DateMapper.java
 /Users/luisenrique/Documents/Programming/Java/Microservices/Brewery project/beer-service/src/main/java/org/beer/works/beerservice/web/model/BeerDto.java
-/Users/luisenrique/Documents/Programming/Java/Microservices/Brewery project/beer-service/src/main/java/org/beer/works/beerservice/web/model/BeerPageList.java
 /Users/luisenrique/Documents/Programming/Java/Microservices/Brewery project/beer-service/src/main/java/org/beer/works/beerservice/web/model/BeerPagedList.java
 /Users/luisenrique/Documents/Programming/Java/Microservices/Brewery project/beer-service/src/main/java/org/beer/works/beerservice/web/model/BeerStyleEnum.java
