@@ -1,4 +1,4 @@
-package org.beer.works.beerservice.services;
+package org.beer.works.beerservice.services.brewing;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
