@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>com.github.luisEnriqueSM</groupId>
 		<artifactId>brewery-bom</artifactId>
-		<version>0.0.2</version>
+		<version>0.0.6</version>
 	</parent>
 	<groupId>org.beer.works</groupId>
 	<artifactId>beer-service</artifactId>
