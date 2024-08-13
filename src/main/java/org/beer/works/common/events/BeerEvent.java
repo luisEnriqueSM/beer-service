@@ -1,4 +1,4 @@
-package org.beer.works.beerservice.events;
+package org.beer.works.common.events;
 
 import lombok.*;
 import org.beer.works.beerservice.web.model.BeerDto;
